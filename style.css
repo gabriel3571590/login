@@ -135,7 +135,7 @@ a {
 
     .right-container {
         display: flex;
-        margin-right: 4rem
+        margin-left: -4rem
         
     }
 
