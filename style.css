@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    color: #1A202C;
+}
+
+.left-container {
+    display: flex;
+
+    padding-top: 10em;
+    background-color: #F7FAFC;
+    padding-right: 10em;
+}
+
+.image-principal {
+    width: 500px;
+    padding-left: 10em;
+    padding-bottom: 20%;
+}
+
+
+.right-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10em;
+    align-items: center;
+    justify-content: center;
+    padding-top: 7em;
+}
+
+.title>h5 {
+    font-size: 16px;
+    line-height: 20.11px;
+    color: #1A202C;
+    margin-right: 13.3rem;
+}
+
+.title>h2 {
+    font-size: 26px;
+    color: #1A202C;
+    line-height: 32.68px;
+}
+
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    padding-top: 36px;
+
+}
+
+
+.password {
+    margin-top: 21px;
+
+}
+
+.input-email,
+.input-password {
+    width: 350px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+
+}
+
+.remember-forgot {
+    display: flex;
+    gap: 5rem;
+    padding-top: 26px;
+    padding-bottom: 28px;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+
+}
+
+.enter {
+    background-color: #04C35C;
+    border: none;
+    width: 347px;
+    height: 50px;
+    color: white;
+    font-size: 19px;
+    font-weight: 700;
+    
+}
+
+.google-login {
+    background-color: #1A202C;
+    border: none;
+    height: 50px;
+    color: white;
+    justify-content: center;
+    font-weight: 700;
+    line-height: 20px;
+
+}
+
+.google-image {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    vertical-align: middle;
+    margin-right: 5px;
+
+
+}
+
+.sign-up {
+    margin-top: 15px;
+    
+}
+
+@media (max-width: 480px) {
+    .left-container {
+        display: none;
+    }
+
+    .right-container {
+        display: flex;
+        margin-left: 4rem;
+        
+    }
+
+    .sign-up {
+        padding-top: 5rem;
+        padding-bottom: 5rem;
+    }
+}
